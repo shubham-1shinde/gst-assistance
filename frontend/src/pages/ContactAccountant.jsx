@@ -13,8 +13,6 @@ import {
 } from "lucide-react";
 import { Link } from "react-router-dom";
 
-// heploo
-// helooo
 
 const BENEFITS = [
   {
@@ -39,7 +37,6 @@ const BENEFITS = [
   },
 ];
 
-//
 
 const HELP_TYPES = ["GST Filing", "ITC Issues", "Invoice Help", "Compliance"];
 
