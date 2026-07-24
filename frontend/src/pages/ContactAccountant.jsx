@@ -13,6 +13,9 @@ import {
 } from "lucide-react";
 import { Link } from "react-router-dom";
 
+// 
+//
+
 const BENEFITS = [
   {
     icon: FileCheck2,
@@ -35,6 +38,8 @@ const BENEFITS = [
     copy: "Clean financial reporting",
   },
 ];
+
+//
 
 const HELP_TYPES = ["GST Filing", "ITC Issues", "Invoice Help", "Compliance"];
 
