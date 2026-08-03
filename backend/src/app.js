@@ -30,6 +30,7 @@ import complianceRouter from './routes/compliance.route.js'
 import chatRouter from './routes/chat.route.js'
 import gstRouter from './routes/gst.route.js'
 import accountantRouter from './routes/accountant.route.js'
+import healthCheck from './routes/health.route.js'
 
 //routes declaration
 app.use("/api/v1/users", userRouter)
@@ -41,6 +42,7 @@ app.use("/api/v1/compliance", complianceRouter)
 app.use("/api/v1/chat", chatRouter);
 app.use("/api/v1/gst", gstRouter);
 app.use("/api/v1/accountant", accountantRouter);
+app.use("/api/v1/health", healthCheck);
 
 // http://localhost:8000/api/v1/users/register
 
