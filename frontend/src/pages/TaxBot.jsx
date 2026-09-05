@@ -153,10 +153,15 @@ export default function TaxBot() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  const scrollToBottom = () => {
+    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+
   // Auto-scroll only if user is already near the bottom.
   useEffect(() => {
     if (!isNearBottom) return;
-    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+    scrollToBottom();
   }, [messages, isTyping, isNearBottom]);
 
 
